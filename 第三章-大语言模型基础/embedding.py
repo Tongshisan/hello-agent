@@ -9,8 +9,11 @@ embeddings = {
 }
 
 def cosine_similarity(vec1, vec2):
+    # 计算两个向量的点积
     dot_product = np.dot(vec1, vec2)
+    # 计算两个向量的模
     norm_product = np.linalg.norm(vec1) * np.linalg.norm(vec2)
+    # 计算两个向量的余弦相似度
     return dot_product / norm_product
 
 # king - man + woman
