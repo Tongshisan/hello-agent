@@ -2,4 +2,5 @@ requests
 tavily-python
 openai
 numpy
-  
+transformers
+torch
